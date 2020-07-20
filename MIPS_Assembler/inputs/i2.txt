@@ -1,0 +1,7 @@
+addi $s1,$0,10
+addi $s2,$0,12
+beq $s1, $s2,true
+addi $s0,$0, 0
+j Exit
+true:addi $s0, $0,1
+Exit:addi $s0,$s0,1

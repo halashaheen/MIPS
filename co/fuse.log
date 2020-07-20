@@ -1,0 +1,45 @@
+Running: D:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/mips/co/tb_isim_beh.exe -prj D:/mips/co/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/mips/co/Sign_Extend.v" into library work
+Analyzing Verilog file "D:/mips/co/shiftLeft2.v" into library work
+Analyzing Verilog file "D:/mips/co/shiftLeft.v" into library work
+Analyzing Verilog file "D:/mips/co/Register_file.v" into library work
+Analyzing Verilog file "D:/mips/co/Program_counter.v" into library work
+Analyzing Verilog file "D:/mips/co/newAdder.v" into library work
+Analyzing Verilog file "D:/mips/co/mux5.v" into library work
+Analyzing Verilog file "D:/mips/co/mux.v" into library work
+Analyzing Verilog file "D:/mips/co/instruction_mem.v" into library work
+Analyzing Verilog file "D:/mips/co/Datamemory.v" into library work
+Analyzing Verilog file "D:/mips/co/control_unit.v" into library work
+Analyzing Verilog file "D:/mips/co/ALU_ctrl.v" into library work
+Analyzing Verilog file "D:/mips/co/alu.v" into library work
+Analyzing Verilog file "D:/mips/co/MIPS_processor.v" into library work
+Analyzing Verilog file "D:/mips/co/tb.v" into library work
+Analyzing Verilog file "D:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pc
+Compiling module INST_mem
+Compiling module adder_32_simple
+Compiling module control_unit
+Compiling module mux5
+Compiling module RegisterFile
+Compiling module sign_extend
+Compiling module mux
+Compiling module Alu32bit
+Compiling module Alu_ctrl
+Compiling module Datamemory
+Compiling module shift_left28
+Compiling module shift_left2
+Compiling module MIPS_processor
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable D:/mips/co/tb_isim_beh.exe
+Fuse Memory Usage: 28120 KB
+Fuse CPU Usage: 1138 ms

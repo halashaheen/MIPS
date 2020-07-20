@@ -1,0 +1,9 @@
+addi $s3,$zero,18
+addi $s4,$zero,20
+addi $s1,$zero,10
+addi $s2,$zero,15
+beq $s3,$s4,Else
+add $s0,$s1,$s2
+j Exit
+Else:add $s0,$s1,$s2
+Exit:addi $zero,$zero,0

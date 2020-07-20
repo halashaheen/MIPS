@@ -1,0 +1,8 @@
+addi $s5,$0,4
+addi $t0,$0,5
+slt $at, $s5, $t0
+beq $at, $zero, Else
+add $s6, $s5, $zero
+j Exit
+Else: add $s6, $zero, $zero
+Exit:sll $0,$0,0

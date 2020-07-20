@@ -1,0 +1,12 @@
+addi $s1,$0,12
+addi $s2,$0,15
+addi $t0,$0,10
+slt $t1,$s1,$t0
+addi $t0,$0,20
+slt $t2,$s2,$t0
+or $t3,$t1,$t2
+beq $t3,$0,Else
+and $s1,$s1,$s2
+j Exit
+Else:and $s2,$s1,$s2
+Exit:sll $0,$0,0 
